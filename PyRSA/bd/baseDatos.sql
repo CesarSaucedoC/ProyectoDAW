@@ -109,6 +109,8 @@ delete from usuario where rpe = '9B1U3';
 
 insert into usuario values('9B1U3',md5('9B1U3'),'Cesar','Saucedo','Cordova','Tecnico','Activo','cesar.saucedo@cfe.gob.mx');
 
-select * from usuario;
+select * from necesidad;
 
 select * from usuario where rpe = '9B1U3' and pwd='b2929ce0d75d640b50544b142e7c1919';
+
+UPDATE inventario  SET ubicacion = '1', equipo = 'Nodo sdh 1650', contrasena ='ADMIN', usuario ='ADMIN', acceso ='Craf terminal', marca ='Alcatel', modelo ='1650 sm-c', nSerie ='c9p4668rd7hs' WHERE r3='112564';
